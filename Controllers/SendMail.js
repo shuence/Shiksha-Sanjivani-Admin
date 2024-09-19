@@ -22,8 +22,8 @@ module.exports.SendEmail = function (email, password) {
   const transporter = nodemailer.createTransport({
     service: "Gmail", // Use your email service provider here
     auth: {
-      user: "goheluday6445@gmail.com", // Your email address
-      pass: "bypqzlyujtzqvcxx", // Your email password or application-specific password
+      user: "shubhampitekar2323@gmail.com", // Your email address
+      pass: "cyajhvqspvptkpwd"
     },
   });
 
