@@ -13,10 +13,17 @@ const app = express();
 //dbconnection
 require("./config/dbconfig").getDbconnection();
 
+// CORS options
+const corsOptions = {
+  origin: "https://shikshasanjivaniadmin.netlify.app", // Allow only this origin
+  methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
+  credentials: true, // Allow credentials (if needed, like cookies or auth headers)
+};
+
 //middleware
 app.use(express.static("public"));
 app.use(express.json());
-app.use(cors());
+app.use(cors(corsOptions)); // Apply the CORS options
 
 app.use("/", analysisRoutes);
 app.use("/", cityRoutes);
@@ -26,9 +33,11 @@ app.use("/", userRoutes);
 app.use("/", adminRoutes);
 app.use("/", authorityRoutes);
 app.use("/", reasonRoutes);
+
 app.get("/", (req, res) => {
   res.send("hello");
 });
 
-app.listen(9999);
-console.log("server started at 9999");
+app.listen(9999, () => {
+  console.log("server started at 9999");
+});
