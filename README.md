@@ -54,7 +54,7 @@ The solution leverages **AI-powered analytics** and real-time data visualization
 
 ![Screenshot 2024-10-07 143736](https://github.com/user-attachments/assets/70ace467-61b4-4875-a57b-82ab71c1b155)
 
-## 📊 Public Opinion on Shiksha Sanjeevani
+## 📊 Public Opinion
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
@@ -80,6 +80,8 @@ The solution leverages **AI-powered analytics** and real-time data visualization
     </td>
   </tr>
 </table>
+
+
 
 
 
