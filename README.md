@@ -1,207 +1,85 @@
-<p align="center">
-  <h1 align="center">Dropout Analysis for School Education</h1>
-</p>
+# **Shiksha Sanjeevani - Admin Panel**
 
-## Table Of Contents
+## 📝 **Introduction**
 
-- [About the Project](#about-the-project)
-- [Built With](#built-with)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#eatures)
-- [Contributing](#contributing)
-- [Deploy Link](https://dropout-analysis-lake.vercel.app/)
+**Problem Statement ID**: SIH1661  
+**Problem Title**: Implement Software Solutions to Reduce Student Dropout Rates at Various Educational Stages  
+**Theme**: Smart Education  
+**Team Name**: Innovision Squad  
+**Project**: Shiksha Sanjeevani – **Admin Panel** for dropout reduction in India
 
-## About the Project
+India faces a significant challenge with high student dropout rates, especially in marginalized communities. The **National Education Policy (NEP) 2020** stresses the need for universal education and dropout rate reduction. This admin panel is a core part of **Shiksha Sanjeevani**, providing a comprehensive software solution to analyze and reduce dropout rates, using data-driven approaches.
 
-The Dropout Analysis and Intervention System is a comprehensive solution aimed at addressing the high dropout rates in schools, with a particular focus on mitigating the impact of poverty and various socio-economic factors. The project provides a strategic framework for governments to formulate targeted policies by analyzing dropout data across different categories.
+## 🎯 **Objective**
 
-## Glimpse of our Project
-![Dashboard](https://github.com/devamdoshi212/DropoutAnalysis/assets/114012274/a0038a82-7f62-42a4-97ca-e59155ddc6af)
-![Gujarat Map](https://github.com/devamdoshi212/DropoutAnalysis/assets/114012274/14691566-883e-4b26-b501-e9da6f61046a)
-![Analysis](https://github.com/devamdoshi212/DropoutAnalysis/assets/114012274/f347040d-d97b-40a1-88a5-e464d9c3e5dc)
+The **Admin Panel** of Shiksha Sanjeevani is designed to empower educational administrators and policymakers by providing in-depth data insights, dropout predictions, and resource allocation tools to reduce dropout rates across various districts, zones, cities, and schools in India.
 
-## Built With
+The solution leverages **AI-powered analytics** and real-time data visualization to identify at-risk students and implement effective interventions, aligning with government schemes like **Beti Bachao Beti Padhao** and **Sarva Shiksha Abhiyan**.
 
-- Frontend: [React](https://reactjs.org/)
-- Backend:
-  - [Node.js](https://nodejs.org/) for general backend functionality
-  - [Flask](https://flask.palletsprojects.com/) for ML backend
+## Intro To SpoonShare Video
 
-## Machine Learning Models
+[![Intro To SpoonShare](https://i.postimg.cc/DyxhVPcg/youtube-thumbnail-1.png)
+]([https://youtu.be/COQflZiXL4E](https://www.youtube.com/watch?v=cYP71cEpH60))
 
-- [K-Nearest Neighbors (KNN)](https://scikit-learn.org/stable/modules/neighbors.html#k-neighbors-classifiers)
-- [Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#random-forests)
+## 🚀 **Key Features of the Admin Panel**
 
-## Getting Started
+1. **AI-Driven Early Warning System**  
+   - **Predictive Analytics**: Analyzes historical and real-time data (attendance, grades, behavior) to predict students at risk of dropping out.
+   - **Real-Time Alerts**: Notifies school administrators and educators to intervene before a student drops out.
+  
+2. **Data Visualization & Multi-level Analysis**  
+   - **Level-by-Level View**: 
+     - **State-Level**: Offers a holistic view of dropout rates across states.
+     - **District-Level**: Provides detailed analysis by districts.
+     - **City-Level**: Tracks dropout rates and intervention success within cities.
+     - **School-Level**: Monitors individual schools' performance and flags at-risk students.
+   - **Heatmaps**: Visualize dropout trends geographically to help target interventions.
+   - **Comparison Tools**: Compare dropout rates across regions, schools, and demographics.
 
-### Prerequisites
+3. **Attendance & Behavior Tracking**  
+   - Tracks attendance and behavior patterns to identify early warning signs.
 
-#### General:
+4. **Financial Aid Management System**  
+   - **Scholarship Tracking**: Streamlines the scholarship and financial aid application process.
+   - **Disbursement Management**: Tracks disbursement of government schemes like **PM Poshan Shakti Nirman** (Mid-Day Meal).
 
-1. **Git:**
-   - Make sure Git is installed on your system. You can download it from [here](https://git-scm.com/).
+5. **Report Generation & Analytics**  
+   - **Custom Reports**: Generate reports on dropout rates, intervention outcomes, and student progress.
+   - **Graphical Representation**: Visualize data with charts, graphs, and tables.
 
-2. **Node.js and npm:**
-   - Install Node.js and npm from [https://nodejs.org/](https://nodejs.org/).
+6. **Real-Time Data Integration**  
+   - Integrated with real-time databases, ensuring that changes in student data and dropout rates are reflected instantly.
 
-3. **Python:**
-   - Install Python from [https://www.python.org/](https://www.python.org/).
+## 🛠️ **Architecture & Technology Stack**
 
-#### Frontend:
+![Screenshot 2024-10-07 143736](https://github.com/user-attachments/assets/95e40af9-54a6-42ef-bdc7-6117056de3a7)
 
-1. **React:**
-   - Ensure you have a basic understanding of React.
-   - Documentation: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+## 📈 **Level-wise Data Analysis Approach**
 
-2. **npm Packages:**
-   - Navigate to the `frontend` directory and install dependencies using `npm install`.
+1. **State-Level Analysis**  
+   - Provides a holistic view of dropout trends across states.
+2. **District-Level Analysis**  
+   - Focuses on districts, visualizing trends with heatmaps.
+3. **City-Level Analysis**  
+   - Tracks dropout patterns within cities for urban challenges.
+4. **School-Level Analysis**  
+   - Focuses on individual schools, providing real-time alerts for at-risk students.
+5. **Custom Reports**  
+   - Generate reports based on attendance, student performance, and financial aid.
 
-#### Backend:
+---
 
-1. **Flask:**
-   - Install Flask using `pip install Flask`.
+## 🏅 **Feasibility & Scalability**
 
-2. **Machine Learning Libraries:**
-   - Install scikit-learn using `pip install scikit-learn`.
+- **Cloud-Based Infrastructure**: Minimizes hardware setup, ensuring easy deployment.
+- **Multi-lingual Support**: Accessible across various regions in India.
+- **Scalable**: Can be implemented from local schools to nationwide level.
 
-3. **Other Backend Dependencies:**
-   - Navigate to the `backend` directory and install dependencies using `pip install -r requirements.txt`.
+---
 
-#### Database (if applicable):
+## ⚡ **How to Set Up the Admin Panel**
 
-1. **Database System:**
-   - Ensure the necessary database system MongoDB or is installed.
-
-2. **Database Connection Configuration:**
-   - Provide configuration details for connecting the backend with the database in your backend code.
-
-#### Environment Variables:
-
-1. **Set Up Environment Variables:**
-   - If your project uses sensitive information (e.g., API keys, database credentials), make sure you set up environment variables for security. You can use tools like `dotenv` for this purpose.
-
-
-### Installation
-1. **Clone the Repository:**
-
-    ```bash
-    git clone https://github.com/UdayGohel/DropoutAnalysis.git
-    ```
-
-2. **Navigate to Project Directory:**
-
-    ```bash
-    cd DropoutAnalysis
-    ```
-
-3. **Install Dependencies for Back-end:**
-
-    ```bash
-    npm install
-    ```
-
-4. **Run the Application for Back-end (Express or Node.js server):**
-
-    ```bash
-    npm start
-    ```
-
-5. **Navigate to Flask Project Directory:**
-
-    ```bash
-    cd ML2  # Replace with the actual directory containing your Flask app
-    ```
-
-6. **Install Dependencies for Flask:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-   If you don't have a `requirements.txt` file, make sure Flask is installed:
-
-    ```bash
-    pip install Flask
-    ```
-
-7. **Run the Flask Application:**
-
-    ```bash
-    python server.py
-    ```
-
-   Replace `app.py` with the actual name of your Flask application file.
-
-8. **Navigate to React Project Directory:**
-
-    ```bash
-    cd client-web
-    ```
-
-9. **Install Dependencies for React JS:**
-
-    ```bash
-    npm install
-    ```
-
-10. **Run the Application for Front-end:**
-
-    ```bash
-    npm start
-    ```
-
-## Usage
-
-### Policy Precision:
-
-- Governments can make informed policy decisions based on clear visualizations and analyses.
-### Resource Optimization:
-
-- Efficiently allocate resources to schools and areas with the highest dropout rates.
-### Reduced Dropout Rates:
-
-- Targeted interventions will contribute to a significant reduction in dropout rates.
-### Social Inclusion:
-
-- Address gender, caste, and age-related disparities for a more inclusive education system.
-### Data-Driven Decision-Making:
-
-- Encourage evidence-based decision-making for sustainable improvements.
-
-## Features
-
-#### Robust Feature Set:
-
-The system offers a comprehensive and powerful array of features.
-#### Visualization Tools:
-
-Utilizes various charts (bar, line, pie) for effective data visualization.
-Enables easy comparison and tracking of dropout rates across different categories.
-Predictive Analytics:
-
-Integrates machine learning models for predicting potential dropout cases.
-Features an early warning system with alerts for timely intervention and support.
-#### Map Integration:
-
-Includes an interactive map overlay for Gujarat districts.
-Utilizes regional heatmaps to identify high-risk areas for targeted interventions.
-
-### Contributors
-
-- [_Devam Doshi_](https://github.com/devamdoshi212)
-- [_Uday Gohel_](https://github.com/UdayGohel)
-- [_Harekrushn Tejani_](https://github.com/harekrushn13)
-- [_Harsh Nirmal_](https://github.com/HarshN187)
-- [_Dhruv Shah_](https://github.com/dhruvsharma1999)
-- [_Isha Sanghani_](https://github.com/Ishasanghani)
-
-
-### Code of Conduct
-
-Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.
-
-We appreciate your contributions and look forward to working with you!
-
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/shuence/Shiksha-Sanjivani-Admin
+   cd Shiksha-Sanjivani-Admin
