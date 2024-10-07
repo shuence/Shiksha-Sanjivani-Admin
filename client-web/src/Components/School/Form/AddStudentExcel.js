@@ -38,7 +38,7 @@ const AddStudentExcel = () => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:9999/addStudentExcel", requestOptions)
+    fetch("https://shiksha-sanjivani-admin.onrender.com/addStudentExcel", requestOptions)
       .then((response) => response.text())
       .then((result) => console.log(result))
       .catch((error) => console.log("error", error));

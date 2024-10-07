@@ -18,7 +18,7 @@ const ExistingStudentForm = () => {
       redirect: "follow",
     };
     // const uidNumber = parseInt(uidInput, 10);
-    fetch(`http://localhost:9999/getStudent?_id=${uidInput}`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/getStudent?_id=${uidInput}`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(result);
@@ -40,7 +40,7 @@ const ExistingStudentForm = () => {
     };
     const aadharNumber = parseInt(aadharInput, 10);
     fetch(
-      `http://localhost:9999/getStudent?AadharNumber=${aadharNumber}`,
+      `https://shiksha-sanjivani-admin.onrender.com/getStudent?AadharNumber=${aadharNumber}`,
       requestOptions
     )
       .then((response) => response.json())
@@ -64,7 +64,7 @@ const ExistingStudentForm = () => {
     };
 
     fetch(
-      `http://localhost:9999/addExistingStudent?schoolID=${sId}&standard=${selectedOption}&studentId=${selectedStudent._id}`,
+      `https://shiksha-sanjivani-admin.onrender.com/addExistingStudent?schoolID=${sId}&standard=${selectedOption}&studentId=${selectedStudent._id}`,
       requestOptions
     )
       .then((response) => response.text())

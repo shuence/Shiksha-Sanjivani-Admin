@@ -5,7 +5,7 @@ const FetchTaluka = async (state, district) => {
     redirect: "follow",
   };
   const response = await fetch(
-    `http://localhost:9999/getTalukas?state=${state || null}&district=${
+    `https://shiksha-sanjivani-admin.onrender.com/getTalukas?state=${state || null}&district=${
       district || null
     }`,
     requestOptions

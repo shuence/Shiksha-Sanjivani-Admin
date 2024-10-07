@@ -8,7 +8,7 @@ const Resources = () => {
     useEffect(() => {
         const fetchReasons = async () => {
             try {
-                const response = await fetch('http://localhost:9999/getReason');
+                const response = await fetch('https://shiksha-sanjivani-admin.onrender.com/getReason');
                 const result = await response.json();
                 setReasons(result.data || []);
             } catch (error) {
@@ -88,7 +88,7 @@ const Resources = () => {
             redirect: 'follow'
         };
 
-        fetch(`http://localhost:9999/addResource?id=${filesData.reason}`, requestOptions)
+        fetch(`https://shiksha-sanjivani-admin.onrender.com/addResource?id=${filesData.reason}`, requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));

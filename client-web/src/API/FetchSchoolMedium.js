@@ -4,7 +4,7 @@ const FetchSchoolMedium = async () => {
     redirect: "follow",
   };
   const response = await fetch(
-    "http://localhost:9999/getSchoolType",
+    "https://shiksha-sanjivani-admin.onrender.com/getSchoolType",
     requestOptions
   );
   const result = await response.json();

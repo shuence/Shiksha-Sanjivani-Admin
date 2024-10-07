@@ -66,7 +66,7 @@ const GenderwiseDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroup/Gender?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroup/Gender?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())

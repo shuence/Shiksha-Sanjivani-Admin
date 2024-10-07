@@ -30,7 +30,7 @@ const AddState = () => {
       };
 
       const response = await fetch(
-        "http://localhost:9999/addState",
+        "https://shiksha-sanjivani-admin.onrender.com/addState",
         requestOptions
       );
       const result = await response.json();
@@ -56,7 +56,7 @@ const AddState = () => {
           };
 
           const response = await fetch(
-            "http://localhost:9999/signup",
+            "https://shiksha-sanjivani-admin.onrender.com/signup",
             requestOptions
           );
           const result2 = await response.json();

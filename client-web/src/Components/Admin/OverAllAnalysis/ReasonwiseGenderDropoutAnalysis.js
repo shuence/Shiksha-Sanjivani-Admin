@@ -81,7 +81,7 @@ const ReasonwiseGenderDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school&type1=Reasons&type2=Gender`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school&type1=Reasons&type2=Gender`,
       requestOptions
     )
       .then((response) => response.json())

@@ -2,7 +2,7 @@ export const CurrentStudentServices = {
   getData(id) {
     console.log(id);
     return fetch(
-      `http://localhost:9999/getSchoolWiseStudents?schoolId=${id}&status=3`
+      `https://shiksha-sanjivani-admin.onrender.com/getSchoolWiseStudents?schoolId=${id}&status=3`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -35,7 +35,7 @@ export const CurrentStudentServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },

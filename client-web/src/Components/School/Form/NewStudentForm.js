@@ -142,7 +142,7 @@ const NewStudentForm = () => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:9999/addStudent", requestOptions)
+    fetch("https://shiksha-sanjivani-admin.onrender.com/addStudent", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         Swal.fire({

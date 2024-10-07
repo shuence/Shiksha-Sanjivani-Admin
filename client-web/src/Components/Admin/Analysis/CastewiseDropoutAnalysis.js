@@ -84,7 +84,7 @@ const CastewiseDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroup/Caste?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroup/Caste?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())

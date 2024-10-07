@@ -84,7 +84,7 @@ const AreawiseDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/areaWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `https://shiksha-sanjivani-admin.onrender.com/areaWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())

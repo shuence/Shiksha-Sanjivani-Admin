@@ -82,7 +82,7 @@ const ReasonwiseCasteAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&type1=Reasons&type2=Caste&standard=${standard}`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&type1=Reasons&type2=Caste&standard=${standard}`,
       requestOptions
     )
       .then((response) => response.json())

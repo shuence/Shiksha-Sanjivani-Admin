@@ -1,6 +1,6 @@
 export const StatewiseDropoutAnalysisServices = {
   getData() {
-    return fetch("http://localhost:9999/statewiseDropout")
+    return fetch("https://shiksha-sanjivani-admin.onrender.com/statewiseDropout")
       .then((res) => res.json())
       .then((res) => {
         console.log(res);

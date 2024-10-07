@@ -33,7 +33,7 @@ const Layout = () => {
   };
   return (
     <div className="bg-[#f8f9fa] font-family-karla flex ">
-      <aside className="relative  bg-[#13459c] w-1/5  hidden sm:block shadow-xl shadow-gray-200 h-screen overflow-y-hidden ">
+      <aside className="relative  bg-[#139c63] w-1/5  hidden sm:block shadow-xl shadow-gray-200 h-screen overflow-y-hidden ">
         <div className=" top-0 left-0 p-6 text-center">
           <img
             src={image}
@@ -216,7 +216,7 @@ const Layout = () => {
       </aside>
 
       <div className="w-full flex flex-col h-screen overflow-y-hidden ">
-        <header className="w-full items-center  bg-[#196bde] shadow-gray-900 shadow-md  py-2 px-6 hidden sm:flex">
+        <header className="w-full items-center  bg-[#19deb3] shadow-gray-900 shadow-md  py-2 px-6 hidden sm:flex">
           <div className="w-1/2"></div>
           <div
             x-data="{ isOpen: false }"

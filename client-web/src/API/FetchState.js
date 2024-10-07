@@ -4,7 +4,7 @@ const FetchState = async () => {
     redirect: "follow",
   };
   const response = await fetch(
-    "http://localhost:9999/getStates",
+    "https://shiksha-sanjivani-admin.onrender.com/getStates",
     requestOptions
   );
   const result = await response.json();

@@ -84,7 +84,7 @@ const ParentEducationwiseAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroup/fatherEducation?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroup/fatherEducation?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())

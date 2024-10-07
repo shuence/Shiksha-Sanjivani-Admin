@@ -8,7 +8,7 @@ const Top5State = () => {
       redirect: "follow",
     };
 
-    fetch(`http://localhost:9999/top5state`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/top5state`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
         setData(result[0].stateWiseCounts);

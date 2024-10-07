@@ -15,7 +15,7 @@ const AuthorityDashboard = () => {
     };
 
     fetch(
-      `http://localhost:9999/authoritycount?state=${userData.State._id}`,
+      `https://shiksha-sanjivani-admin.onrender.com/authoritycount?state=${userData.State._id}`,
       requestOptions
     )
       .then((response) => response.json())

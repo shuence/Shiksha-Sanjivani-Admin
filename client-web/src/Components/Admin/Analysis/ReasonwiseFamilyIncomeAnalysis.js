@@ -82,7 +82,7 @@ const ReasonwiseFamilyIncomeAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&type1=Reasons&type2=FamilyIncome&standard=${standard}`,
+      `https://shiksha-sanjivani-admin.onrender.com/FilterStudentinGroupByTwo?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&type1=Reasons&type2=FamilyIncome&standard=${standard}`,
       requestOptions
     )
       .then((response) => response.json())

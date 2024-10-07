@@ -1,7 +1,7 @@
 export const TopSchoolServices = {
   getData(selectedState, selectedDistrict, selectedTaluka, selectedCity) {
     return fetch(
-      `http://localhost:9999/groupBySchool?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}`
+      `https://shiksha-sanjivani-admin.onrender.com/groupBySchool?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -47,7 +47,7 @@ export const TopSchoolServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },

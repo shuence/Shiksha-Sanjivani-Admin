@@ -64,7 +64,7 @@ const AddSchoolForm = () => {
       };
 
       const response = await fetch(
-        "http://localhost:9999/addSchool",
+        "https://shiksha-sanjivani-admin.onrender.com/addSchool",
         requestOptions
       );
       const result = await response.json();
@@ -92,7 +92,7 @@ const AddSchoolForm = () => {
           };
 
           const response = await fetch(
-            "http://localhost:9999/signup",
+            "https://shiksha-sanjivani-admin.onrender.com/signup",
             requestOptions
           );
           const result2 = await response.json();

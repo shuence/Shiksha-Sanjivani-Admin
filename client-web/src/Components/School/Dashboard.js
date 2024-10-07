@@ -17,7 +17,7 @@ const SchoolDashboard = () => {
     };
 
     fetch(
-      `http://localhost:9999/schoolcount?School_ID=${userData.School._id}`,
+      `https://shiksha-sanjivani-admin.onrender.com/schoolcount?School_ID=${userData.School._id}`,
       requestOptions
     )
       .then((response) => response.json())

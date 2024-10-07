@@ -1,7 +1,7 @@
 export const DropedStudentsServices = {
   getData(id) {
     return fetch(
-      `http://localhost:9999/getSchoolWiseStudents?schoolId=${id}&status=5`
+      `https://shiksha-sanjivani-admin.onrender.com/getSchoolWiseStudents?schoolId=${id}&status=5`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -34,7 +34,7 @@ export const DropedStudentsServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },
