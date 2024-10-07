@@ -2,7 +2,7 @@ const schoolModel = require("../models/SchoolModel");
 const stateModel = require("../models/StateModel");
 const districtModel = require("../models/DistrictModel");
 const talukaModel = require("../models/TalukaModel");
-const cityModel = require("../models/CityModel");
+const cityModel = require("../models/CityModel.js");
 const studentModel = require("../models/StudentModel");
 const { default: mongoose } = require("mongoose");
 

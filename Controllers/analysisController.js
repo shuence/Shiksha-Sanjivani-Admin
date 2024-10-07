@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const stateModel = require("../models/StateModel");
 const talukaModel = require("../models/TalukaModel");
 const districtModel = require("../models/DistrictModel");
-const cityModel = require("../models/CityModel");
+const cityModel = require("../models/CityModel.js");
 const schooltypeModel = require("../models/SchoolType");
 
 //admin
