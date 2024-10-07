@@ -52,22 +52,68 @@ The solution leverages **AI-powered analytics** and real-time data visualization
 
 ## 🛠️ **Architecture & Technology Stack**
 
-![Screenshot 2024-10-07 143736](https://github.com/user-attachments/assets/95e40af9-54a6-42ef-bdc7-6117056de3a7)
+![Screenshot 2024-10-07 143736](https://github.com/user-attachments/assets/70ace467-61b4-4875-a57b-82ab71c1b155)
 
-## 📈 **Level-wise Data Analysis Approach**
+## 📊 Public Opinion on Shiksha Sanjeevani
 
-1. **State-Level Analysis**  
-   - Provides a holistic view of dropout trends across states.
-2. **District-Level Analysis**  
-   - Focuses on districts, visualizing trends with heatmaps.
-3. **City-Level Analysis**  
-   - Tracks dropout patterns within cities for urban challenges.
-4. **School-Level Analysis**  
-   - Focuses on individual schools, providing real-time alerts for at-risk students.
-5. **Custom Reports**  
-   - Generate reports based on attendance, student performance, and financial aid.
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="2" style="text-align: center;">
+      <p>➡ Through our detailed surveys and field visits, we observed the critical need for a comprehensive solution to address dropout rates. Feedback from educational institutions revealed several areas for improvement, including enhanced tracking and personalized learning tools for students.</p>
+      <p>➡ The responses gathered also emphasized the importance of parental involvement and real-time progress tracking, both key features of Shiksha Sanjeevani.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; text-align: center;">
+      <img src="https://i.postimg.cc/SJN6xp9z/image.png" alt="Image 2" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%; text-align: center;">
+      <img src="https://i.postimg.cc/mzy9Td2w/image.png" alt="Image 3" style="width: 100%; height: auto;">  
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 50%; text-align: center;">
+      <img src="https://i.postimg.cc/S2gKZHxw/image.png" alt="Image 4" style="width: 100%; height: auto;">
+    </td>
+    <td style="width: 50%; text-align: center;">
+      <img src="https://i.postimg.cc/KRbSg1YH/image.png" alt="Image 1" style="width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
 
----
+
+
+
+
+
+## 📊 Community Feedback & Survey Results
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://youtu.be/gYjR6zsZcd0" target="_blank">
+        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Feedback Video" width="250">
+      </a>
+      <br>
+      <b>Shiksha Sanjeevani Feedback Video</b>
+    </td>
+    <td align="center">
+      <a href="https://photos.app.goo.gl/x91E3NJ3JcX94yoM6" target="_blank">
+        <img src="https://i.postimg.cc/Pq2jnqqv/IMG20240502113610.jpg" alt="Realtime Feedback" width="250">
+      </a>
+      <br>
+      <b>Realtime Feedback Photos</b>
+    </td>
+    <td align="center">
+      <a href="https://drive.google.com/file/d/1q9LeB-AVDsXh8Wi0wNFbHtjDgMsyDyjC/view?usp=drivesdk" target="_blank">
+        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Survey Report" width="250">
+      </a>
+      <br>
+      <b>Survey Report</b>
+    </td>
+  </tr>
+</table>
+
 
 ## 🏅 **Feasibility & Scalability**
 
