@@ -1,4 +1,4 @@
-const cityModel = require("../models/CityModel.js");
+const cityModel = require("../models/CityModel");
 const StateModel = require("../models/StateModel");
 const DistrictModel = require("../models/DistrictModel");
 const TalukaModel = require("../models/TalukaModel");

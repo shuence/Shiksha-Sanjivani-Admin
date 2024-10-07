@@ -2,7 +2,7 @@ const schoolModel = require("../models/SchoolModel");
 const stateModel = require("../models/StateModel");
 const districtModel = require("../models/DistrictModel");
 const talukaModel = require("../models/TalukaModel");
-const cityModel = require("../models/CityModel.js");
+const cityModel = require("../models/CityModel");
 const studentModel = require("../models/StudentModel");
 
 async function dashboardCount(req, res) {
