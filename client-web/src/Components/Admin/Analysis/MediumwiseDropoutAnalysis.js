@@ -84,7 +84,7 @@ const MediumwiseDropoutAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/mediumWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
+      `https://shiksha-sanjivani-admin.onrender.com/mediumWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&school`,
       requestOptions
     )
       .then((response) => response.json())

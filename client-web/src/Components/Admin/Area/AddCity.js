@@ -47,7 +47,7 @@ const AddCity = () => {
       };
 
       const response = await fetch(
-        "http://localhost:9999/addCities",
+        "https://shiksha-sanjivani-admin.onrender.com/addCities",
         requestOptions
       );
       const result = await response.json();

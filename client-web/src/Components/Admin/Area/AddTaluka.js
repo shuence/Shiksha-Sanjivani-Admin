@@ -41,7 +41,7 @@ const AddTaluka = () => {
       };
 
       const response = await fetch(
-        "http://localhost:9999/addTalukas",
+        "https://shiksha-sanjivani-admin.onrender.com/addTalukas",
         requestOptions
       );
       const result = await response.json();

@@ -4,7 +4,7 @@ const FetchReasons = async (id) => {
     redirect: "follow",
   };
   const response = await fetch(
-    `http://localhost:9999/getReason` + (id ? `?reason=${id}` : ""),
+    `https://shiksha-sanjivani-admin.onrender.com/getReason` + (id ? `?reason=${id}` : ""),
     requestOptions
   );
   const result = await response.json();

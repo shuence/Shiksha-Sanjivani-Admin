@@ -29,7 +29,7 @@ const Addreasons = () => {
                 redirect: 'follow'
             };
 
-            fetch("http://localhost:9999/addReason", requestOptions)
+            fetch("https://shiksha-sanjivani-admin.onrender.com/addReason", requestOptions)
                 .then(response => response.text())
                 .then(result => { action.resetForm(); })
                 .catch(error => console.log('error', error));

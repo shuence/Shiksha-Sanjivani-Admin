@@ -92,7 +92,7 @@ export default function InactiveStudent() {
       redirect: "follow",
     };
 
-    fetch(`http://localhost:9999/deactivateStudent`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/deactivateStudent`, requestOptions)
       .then((response) => response.text())
       .then((result) => {
         Swal.fire({
@@ -122,7 +122,7 @@ export default function InactiveStudent() {
       redirect: "follow",
     };
 
-    fetch(`http://localhost:9999/deactivateStudent`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/deactivateStudent`, requestOptions)
       .then((response) => response.text())
       .then((result) => {
         Swal.fire({

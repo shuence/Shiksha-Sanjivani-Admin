@@ -5,7 +5,7 @@ const FetchCity = async (state, district, taluka, cityType) => {
     redirect: "follow",
   };
   const response = await fetch(
-    `http://localhost:9999/getCities?state=${state || null}&district=${
+    `https://shiksha-sanjivani-admin.onrender.com/getCities?state=${state || null}&district=${
       district || null
     }&taluka=${taluka || null}`,
     requestOptions

@@ -308,7 +308,7 @@ const StateMap = () => {
       redirect: "follow",
     };
     fetch(
-      `http://localhost:9999/DistrictWiseData?state=${stateId}&reason=${selectedReasons}&year=${selecYear}&caste=${selectedcast}&gender=${selectedGender}&standard=${selectedstandard}`,
+      `https://shiksha-sanjivani-admin.onrender.com/DistrictWiseData?state=${stateId}&reason=${selectedReasons}&year=${selecYear}&caste=${selectedcast}&gender=${selectedGender}&standard=${selectedstandard}`,
       requestOptions
     )
       .then((response) => response.json())

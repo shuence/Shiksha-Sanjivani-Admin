@@ -5,7 +5,7 @@ const FetchDistrict = async (state) => {
     redirect: "follow",
   };
   const response = await fetch(
-    `http://localhost:9999/getDistricts?state=${state || null}`,
+    `https://shiksha-sanjivani-admin.onrender.com/getDistricts?state=${state || null}`,
     requestOptions
   );
   const result = await response.json();

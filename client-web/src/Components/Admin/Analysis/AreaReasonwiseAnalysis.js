@@ -82,7 +82,7 @@ const AreaReasonwiseAnalysis = ({
     };
 
     fetch(
-      `http://localhost:9999/ReasonAndAreaWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&standard=${standard}`,
+      `https://shiksha-sanjivani-admin.onrender.com/ReasonAndAreaWise?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&standard=${standard}`,
       requestOptions
     )
       .then((response) => response.json())

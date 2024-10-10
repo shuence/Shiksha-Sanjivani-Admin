@@ -307,7 +307,7 @@ export default function RemediesDataTable() {
                                   <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href={`http://localhost:9999/resources/${pdfItem.file}`}
+                                    href={`https://shiksha-sanjivani-admin.onrender.com/resources/${pdfItem.file}`}
                                     className="text-blue-700 hover:text-purple-800"
                                   >
                                     {pdfItem.name}
@@ -323,7 +323,7 @@ export default function RemediesDataTable() {
                                   <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href={`http://localhost:9999/resources/${pptxItem.file}`}
+                                    href={`https://shiksha-sanjivani-admin.onrender.com/resources/${pptxItem.file}`}
                                     className="text-blue-700 hover:text-purple-800"
                                   >
                                     {pptxItem.name}
@@ -340,7 +340,7 @@ export default function RemediesDataTable() {
                                   <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href={`http://localhost:9999/resources/${videoItem.file}`}
+                                    href={`https://shiksha-sanjivani-admin.onrender.com/resources/${videoItem.file}`}
                                     className="text-blue-700 hover:text-purple-800"
                                   >
                                     {videoItem.name}

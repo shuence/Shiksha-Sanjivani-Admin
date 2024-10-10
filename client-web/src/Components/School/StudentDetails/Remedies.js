@@ -16,7 +16,7 @@ const Remedies = () => {
       redirect: "follow",
     };
 
-    fetch(`http://localhost:9999/getReason?reason=${reason}`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/getReason?reason=${reason}`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
         setReason(result.data[0]);
@@ -30,7 +30,7 @@ const Remedies = () => {
       redirect: "follow",
     };
 
-    fetch(`http://localhost:9999/customeSearch?q=${input}`, requestOptions)
+    fetch(`https://shiksha-sanjivani-admin.onrender.com/customeSearch?q=${input}`, requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(result);
@@ -85,7 +85,7 @@ const Remedies = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={`http://localhost:9999/resources/${e.name}`}
+                          href={`https://shiksha-sanjivani-admin.onrender.com/resources/${e.name}`}
                           className="text-blue-700 hover:text-purple-800"
                         >
                           {e.name}
@@ -107,7 +107,7 @@ const Remedies = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={`http://localhost:9999/resources/${e.name}`}
+                          href={`https://shiksha-sanjivani-admin.onrender.com/resources/${e.name}`}
                           className="text-blue-700 hover:text-purple-800"
                         >
                           {e.name}
@@ -129,7 +129,7 @@ const Remedies = () => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={`http://localhost:9999/resources/${e.name}`}
+                          href={`https://shiksha-sanjivani-admin.onrender.com/resources/${e.name}`}
                           className="text-blue-700 hover:text-purple-800"
                         >
                           {e.name}

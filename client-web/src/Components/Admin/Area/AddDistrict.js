@@ -36,7 +36,7 @@ const AddDistrict = () => {
       };
 
       const response = await fetch(
-        "http://localhost:9999/addDistricts",
+        "https://shiksha-sanjivani-admin.onrender.com/addDistricts",
         requestOptions
       );
       const result = await response.json();

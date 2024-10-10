@@ -28,7 +28,7 @@ const Login = () => {
       body: raw,
       redirect: "follow",
     };
-    fetch("http://localhost:9999/login", requestOptions)
+    fetch("https://shiksha-sanjivani-admin.onrender.com/login", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(result);

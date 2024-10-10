@@ -14,7 +14,7 @@ const AdminDashboard = () => {
       redirect: "follow",
     };
 
-    fetch("http://localhost:9999/AdmindashboardCount", requestOptions)
+    fetch("https://shiksha-sanjivani-admin.onrender.com/AdmindashboardCount", requestOptions)
       .then((response) => response.json())
       .then((result) => {
         console.log(result);

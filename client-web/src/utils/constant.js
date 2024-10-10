@@ -1,0 +1,1 @@
+export const BASE_URL = "https://shiksha-sanjivani-admin.onrender.com"

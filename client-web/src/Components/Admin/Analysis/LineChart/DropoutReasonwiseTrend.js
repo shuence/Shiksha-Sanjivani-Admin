@@ -111,7 +111,7 @@ const DropoutReasonwiseTrend = ({
     };
 
     fetch(
-      `http://localhost:9999/reasonYearTrend?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}`,
+      `https://shiksha-sanjivani-admin.onrender.com/reasonYearTrend?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}`,
       requestOptions
     )
       .then((response) => response.json())

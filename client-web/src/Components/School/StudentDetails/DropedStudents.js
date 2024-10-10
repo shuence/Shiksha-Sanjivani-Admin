@@ -223,7 +223,7 @@ export default function DropedStudents() {
     //   method: "GET",
     //   redirect: "follow",
     // };
-    // fetch(`http://localhost:9999/getReason?reason=${reason}`, requestOptions)
+    // fetch(`https://shiksha-sanjivani-admin.onrender.com/getReason?reason=${reason}`, requestOptions)
     //   .then((response) => response.json())
     //   .then((result) => {
     //     console.log(result);
@@ -264,7 +264,7 @@ export default function DropedStudents() {
               {Reason.resources.map((resource, index) => (
                 <a
                   key={index}
-                  href={`http://localhost:9999/resources/${resource.file}`}
+                  href={`https://shiksha-sanjivani-admin.onrender.com/resources/${resource.file}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

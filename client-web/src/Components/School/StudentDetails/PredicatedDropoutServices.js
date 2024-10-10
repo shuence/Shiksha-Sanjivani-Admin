@@ -1,7 +1,7 @@
 export const PredicatedDropoutServices = {
   getData(id) {
     console.log(id);
-    return fetch(`http://localhost:9999/getPrediction?schoolId=${id}`)
+    return fetch(`https://shiksha-sanjivani-admin.onrender.com/getPrediction?schoolId=${id}`)
       .then((res) => res.json())
       .then((res) => {
         // console.log(res.data);
@@ -35,7 +35,7 @@ export const PredicatedDropoutServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },

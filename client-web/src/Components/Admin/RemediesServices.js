@@ -1,7 +1,7 @@
 export const ResourcesServices = {
   getData(selectedState, selectedDistrict, selectedTaluka, selectedCity) {
     console.log(selectedDistrict);
-    return fetch(`http://localhost:9999/getReason`)
+    return fetch(`https://shiksha-sanjivani-admin.onrender.com/getReason`)
       .then((res) => res.json())
       .then((res) => {
         console.log(res.data);
@@ -46,7 +46,7 @@ export const ResourcesServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },

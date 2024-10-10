@@ -18,7 +18,7 @@ const Verify = async (role) => {
       redirect: "follow",
     };
     const response = await fetch(
-      "http://localhost:9999/verify",
+      "https://shiksha-sanjivani-admin.onrender.com/verify",
       requestOptions
     );
     const result = await response.json();

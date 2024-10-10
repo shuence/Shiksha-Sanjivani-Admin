@@ -1,7 +1,7 @@
 export const AuthorityActiveServices = {
   getData(selectedState, selectedDistrict, selectedTaluka, selectedCity) {
     return fetch(
-      `http://localhost:9999/getChooseWiseStudents?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&status=3`
+      `https://shiksha-sanjivani-admin.onrender.com/getChooseWiseStudents?state=${selectedState}&district=${selectedDistrict}&city=${selectedCity}&taluka=${selectedTaluka}&status=3`
     )
       .then((res) => res.json())
       .then((res) => {
@@ -47,7 +47,7 @@ export const AuthorityActiveServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },

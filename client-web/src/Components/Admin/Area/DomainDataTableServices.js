@@ -1,6 +1,6 @@
 export const DomainDataTableServices = {
   getData() {
-    return fetch(`http://localhost:9999/stateWiseCount`)
+    return fetch(`https://shiksha-sanjivani-admin.onrender.com/stateWiseCount`)
       .then((res) => res.json())
       .then((res) => {
         // console.log(res);
@@ -33,7 +33,7 @@ export const DomainDataTableServices = {
   //         .join("&")
   //     : "";
 
-  //   return fetch("http://localhost:9999/getSportsComplex" + queryParams).then(
+  //   return fetch("https://shiksha-sanjivani-admin.onrender.com/getSportsComplex" + queryParams).then(
   //     (res) => res.json()
   //   );
   // },
