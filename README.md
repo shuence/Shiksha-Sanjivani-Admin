@@ -16,7 +16,7 @@ The **Admin Panel** of Shiksha Sanjeevani is designed to empower educational adm
 
 The solution leverages **AI-powered analytics** and real-time data visualization to identify at-risk students and implement effective interventions, aligning with government schemes like **Beti Bachao Beti Padhao** and **Sarva Shiksha Abhiyan**.
 
-## Intro To SpoonShare Video
+## Intro To Shiksha Sanjeevani –Admin Panel Video
 
 [![Intro To SpoonShare](https://i.postimg.cc/DyxhVPcg/youtube-thumbnail-1.png)
 ]([https://youtu.be/COQflZiXL4E](https://www.youtube.com/watch?v=cYP71cEpH60))
