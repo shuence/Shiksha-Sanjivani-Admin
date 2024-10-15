@@ -86,7 +86,7 @@ The solution leverages **AI-powered analytics** and real-time data visualization
   <tr>
     <td align="center">
       <a href="https://youtu.be/gYjR6zsZcd0" target="_blank">
-        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Image 1" width="250">
+        <img src="https://i.ibb.co/dt3FmJq/THUMBNAIL-1.jpg" alt="Image 1" width="250">
       </a>
       <br>
       <b>SpoonShare Feedback</b>
