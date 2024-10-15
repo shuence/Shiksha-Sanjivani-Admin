@@ -18,8 +18,8 @@ The solution leverages **AI-powered analytics** and real-time data visualization
 
 ## Intro To Shiksha Sanjeevani –Admin Panel Video
 
-[![Intro To SpoonShare](https://i.postimg.cc/DyxhVPcg/youtube-thumbnail-1.png)
-]([https://youtu.be/COQflZiXL4E](https://www.youtube.com/watch?v=cYP71cEpH60))
+[![THUMBNAIL](https://github.com/user-attachments/assets/cffd8845-4fdc-49a3-83bf-d885f5dd2586)](https://www.youtube.com/watch?v=cYP71cEpH60)
+
 
 ## 🚀 **Key Features of the Admin Panel**
 
@@ -65,18 +65,18 @@ The solution leverages **AI-powered analytics** and real-time data visualization
   </tr>
   <tr>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/SJN6xp9z/image.png" alt="Image 2" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/GtVwpT6/Screenshot-2024-10-07-200258.png" alt="Image 2" style="width: 100%; height: auto;">
     </td>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/mzy9Td2w/image.png" alt="Image 3" style="width: 100%; height: auto;">  
+      <img src="https://i.ibb.co/tLBZTsy/Screenshot-2024-10-07-200311.png" alt="Image 3" style="width: 100%; height: auto;">  
     </td>
   </tr>
   <tr>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/S2gKZHxw/image.png" alt="Image 4" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/28HRXj1/Screenshot-2024-10-07-200317.png" alt="Image 4" style="width: 100%; height: auto;">
     </td>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/KRbSg1YH/image.png" alt="Image 1" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/LtpmfHM/Screenshot-2024-10-07-200323.png" alt="Image 1" style="width: 100%; height: auto;">
     </td>
   </tr>
 </table>
