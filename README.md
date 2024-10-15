@@ -82,42 +82,6 @@ The solution leverages **AI-powered analytics** and real-time data visualization
   </tr>
 </table>
 
-
-
-
-
-
-
-
-## 📊 Community Feedback & Survey Results
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://youtu.be/gYjR6zsZcd0" target="_blank">
-        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Feedback Video" width="250">
-      </a>
-      <br>
-      <b>Shiksha Sanjeevani Feedback Video</b>
-    </td>
-    <td align="center">
-      <a href="https://photos.app.goo.gl/x91E3NJ3JcX94yoM6" target="_blank">
-        <img src="https://i.postimg.cc/Pq2jnqqv/IMG20240502113610.jpg" alt="Realtime Feedback" width="250">
-      </a>
-      <br>
-      <b>Realtime Feedback Photos</b>
-    </td>
-    <td align="center">
-      <a href="https://drive.google.com/file/d/1q9LeB-AVDsXh8Wi0wNFbHtjDgMsyDyjC/view?usp=drivesdk" target="_blank">
-        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Survey Report" width="250">
-      </a>
-      <br>
-      <b>Survey Report</b>
-    </td>
-  </tr>
-</table>
-
-
 ## 🏅 **Feasibility & Scalability**
 
 - **Cloud-Based Infrastructure**: Minimizes hardware setup, ensuring easy deployment.
