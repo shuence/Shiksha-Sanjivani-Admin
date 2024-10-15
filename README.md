@@ -18,7 +18,8 @@ The solution leverages **AI-powered analytics** and real-time data visualization
 
 ## Intro To Shiksha Sanjeevani –Admin Panel Video
 
-[![THUMBNAIL](https://github.com/user-attachments/assets/cffd8845-4fdc-49a3-83bf-d885f5dd2586)](https://www.youtube.com/watch?v=cYP71cEpH60)
+[![THUMBNAIL (2)](https://github.com/user-attachments/assets/bbed8a96-ee90-4717-93c8-f473f712312c)
+](https://www.youtube.com/watch?v=cYP71cEpH60)
 
 
 ## 🚀 **Key Features of the Admin Panel**
