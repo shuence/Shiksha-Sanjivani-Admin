@@ -82,6 +82,33 @@ The solution leverages **AI-powered analytics** and real-time data visualization
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://youtu.be/gYjR6zsZcd0" target="_blank">
+        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Image 1" width="250">
+      </a>
+      <br>
+      <b>SpoonShare Feedback</b>
+    </td>
+    <td align="center">
+      <a href="https://photos.app.goo.gl/x91E3NJ3JcX94yoM6" target="_blank">
+        <img src="https://i.postimg.cc/Pq2jnqqv/IMG20240502113610.jpg" alt="Image 2" width="250">
+      </a>
+      <br>
+      <b>Realtime Feedback</b>
+    </td>
+    <td align="center">
+      <a href="https://drive.google.com/file/d/1q9LeB-AVDsXh8Wi0wNFbHtjDgMsyDyjC/view?usp=drivesdk" target="_blank">
+        <img src="https://i.ibb.co/7nxSWX1/Whats-App-Image-2024-09-30-at-1-39-01-AM.jpg" alt="Image 3" width="250">
+      </a>
+      <br>
+      <b><a href="https://i.ibb.co/7nxSWX1/Whats-App-Image-2024-09-30-at-1-39-01-AM.jpg" target="_blank">Survey Report</a></b>
+    </td>
+  </tr>
+</table>
+
+
 ## 🏅 **Feasibility & Scalability**
 
 - **Cloud-Based Infrastructure**: Minimizes hardware setup, ensuring easy deployment.
