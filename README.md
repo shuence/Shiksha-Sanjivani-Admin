@@ -16,10 +16,11 @@ The **Admin Panel** of Shiksha Sanjeevani is designed to empower educational adm
 
 The solution leverages **AI-powered analytics** and real-time data visualization to identify at-risk students and implement effective interventions, aligning with government schemes like **Beti Bachao Beti Padhao** and **Sarva Shiksha Abhiyan**.
 
-## Intro To SpoonShare Video
+## Intro To Shiksha Sanjeevani –Admin Panel Video
 
-[![Intro To SpoonShare](https://i.postimg.cc/DyxhVPcg/youtube-thumbnail-1.png)
-]([https://youtu.be/COQflZiXL4E](https://www.youtube.com/watch?v=cYP71cEpH60))
+[![THUMBNAIL (2)](https://github.com/user-attachments/assets/bbed8a96-ee90-4717-93c8-f473f712312c)
+](https://www.youtube.com/watch?v=cYP71cEpH60)
+
 
 ## 🚀 **Key Features of the Admin Panel**
 
@@ -65,53 +66,44 @@ The solution leverages **AI-powered analytics** and real-time data visualization
   </tr>
   <tr>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/SJN6xp9z/image.png" alt="Image 2" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/GtVwpT6/Screenshot-2024-10-07-200258.png" alt="Image 2" style="width: 100%; height: auto;">
     </td>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/mzy9Td2w/image.png" alt="Image 3" style="width: 100%; height: auto;">  
+      <img src="https://i.ibb.co/tLBZTsy/Screenshot-2024-10-07-200311.png" alt="Image 3" style="width: 100%; height: auto;">  
     </td>
   </tr>
   <tr>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/S2gKZHxw/image.png" alt="Image 4" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/28HRXj1/Screenshot-2024-10-07-200317.png" alt="Image 4" style="width: 100%; height: auto;">
     </td>
     <td style="width: 50%; text-align: center;">
-      <img src="https://i.postimg.cc/KRbSg1YH/image.png" alt="Image 1" style="width: 100%; height: auto;">
+      <img src="https://i.ibb.co/LtpmfHM/Screenshot-2024-10-07-200323.png" alt="Image 1" style="width: 100%; height: auto;">
     </td>
   </tr>
 </table>
-
-
-
-
-
-
-
-
-## 📊 Community Feedback & Survey Results
 
 <table>
   <tr>
     <td align="center">
       <a href="https://youtu.be/gYjR6zsZcd0" target="_blank">
-        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Feedback Video" width="250">
+        <img src="https://i.ibb.co/dt3FmJq/THUMBNAIL-1.jpg" alt="Image 1" width="250">
       </a>
       <br>
-      <b>Shiksha Sanjeevani Feedback Video</b>
+      <b>SpoonShare Feedback</b>
     </td>
     <td align="center">
       <a href="https://photos.app.goo.gl/x91E3NJ3JcX94yoM6" target="_blank">
-        <img src="https://i.postimg.cc/Pq2jnqqv/IMG20240502113610.jpg" alt="Realtime Feedback" width="250">
+        <img src="https://i.postimg.cc/Pq2jnqqv/IMG20240502113610.jpg" alt="Image 2" width="250">
       </a>
       <br>
-      <b>Realtime Feedback Photos</b>
+      <b>Realtime Feedback</b>
     </td>
     <td align="center">
       <a href="https://drive.google.com/file/d/1q9LeB-AVDsXh8Wi0wNFbHtjDgMsyDyjC/view?usp=drivesdk" target="_blank">
-        <img src="https://i.postimg.cc/vHQ7NSf2/image.png" alt="Survey Report" width="250">
+        <img src="https://i.ibb.co/7nxSWX1/Whats-App-Image-2024-09-30-at-1-39-01-AM.jpg" alt="Image 3" width="250">
       </a>
       <br>
-      <b>Survey Report</b>
+      <b><a href="https://i.ibb.co/7nxSWX1/Whats-App-Image-2024-09-30-at-1-39-01-AM.jpg" target="_blank">Survey Report</a></b>
     </td>
   </tr>
 </table>
